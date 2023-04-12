@@ -4,39 +4,39 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-  #- name: kenzok8_packages
-  #  uri: https://github.com/kenzok8/openwrt-packages.git
-  #  branch: master
-  #  revision: 5301e08de6a6e18b3712a15246e176dd7c103c0e
-  #- name: immortalwrt_luci
-  # uri: https://github.com/immortalwrt/luci.git
-  #   branch: openwrt-21.02
-  #  revision: 847bd6b78bcd769d935f355f0fd3529fd565ac35
-  #- name: small_package
-  #   uri: https://github.com/kenzok8/small-package.git
-  #   branch: main
-  #   revision: 0c803d92b2e9f6d44bc44401aa5dc5576403b5b7
+  - name: kenzok8_packages
+    uri: https://github.com/kenzok8/openwrt-packages.git
+    branch: master
+    revision: 5301e08de6a6e18b3712a15246e176dd7c103c0e
+  - name: immortalwrt_luci
+    uri: https://github.com/immortalwrt/luci.git
+    branch: openwrt-21.02
+    revision: 847bd6b78bcd769d935f355f0fd3529fd565ac35
+  - name: small_package
+    uri: https://github.com/kenzok8/small-package.git
+    branch: main
+    revision: 0c803d92b2e9f6d44bc44401aa5dc5576403b5b7
 packages:
   #- luci-app-mwan3
   - luci-app-passwall
-  #- luci-theme-argon
-  # - luci-app-argon-config
-  # - luci-app-ramfree
-  # - luci-app-wol
-  # - luci-app-diskman
-  # - luci-app-smartdns
-  # - luci-app-openclash
+  - luci-theme-argon
+  - luci-app-argon-config
+  - luci-app-ramfree
+  - luci-app-wol
+  - luci-app-diskman
+  - luci-app-smartdns
+  - luci-app-openclash
   #- luci-app-aria2
-  # - luci-app-turboacc
+  - luci-app-turboacc
   # - luci-app-xlnetacc
-  # - luci-app-cpufreq
-  # - luci-app-samba4
-  # - luci-app-ttyd
-  # - luci-app-ssr-plus
+  - luci-app-cpufreq
+  - luci-app-samba4
+  - luci-app-ttyd
+  - luci-app-ssr-plus
   #- luci-app-serverchan
-  # - luci-app-transmission
-  # - luci-app-advanced
-  # - luci-app-aliddns
+  - luci-app-transmission
+  - luci-app-advanced
+  - luci-app-aliddns
  
 
 diffconfig: |
