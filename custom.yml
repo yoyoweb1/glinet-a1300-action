@@ -17,10 +17,11 @@ feeds:
   #  branch: main
   #  revision: 0c2aa52ab5411db61520f1dc0cc90df65456d91c
 packages:
+   - default-settings
   #- luci-app-mwan3
   #- luci-app-passwall
-  #- luci-theme-argon
-  #- luci-app-argon-config
+  - luci-theme-argon
+  - luci-app-argon-config
   #- luci-app-ramfree
   #- luci-app-wol
   #- luci-app-diskman
