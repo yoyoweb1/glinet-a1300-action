@@ -8,11 +8,11 @@ uci commit system
 
 # config wireless
 uci set wireless.radio0.cell_density='0'
-uci set wireless.default_radio0.ssid='openwrt'
+uci set wireless.default_radio0.ssid='SMB'
 uci set wireless.default_radio0.encryption='psk2'
 uci set wireless.default_radio0.key='12345678'
 uci set wireless.radio1.cell_density='0'
-uci set wireless.default_radio1.ssid='openwrt'
+uci set wireless.default_radio1.ssid='SMB'
 uci set wireless.default_radio1.encryption='psk2'
 uci set wireless.default_radio1.key='12345678'
 uci set wireless.default_radio1.macfilter='deny'
@@ -21,7 +21,7 @@ sed -i '/option disabled/d' /etc/config/wireless
 sed -i '/set wireless.radio${devidx}.disabled/d' /lib/wifi/mac80211.sh
 
 #config network
-uci set network.lan.ipaddr="192.168.9.1"
+uci set network.lan.ipaddr="192.168.0.1"
 uci set network.wan.proto="pppoe" 
 uci set network.wan.username=""
 uci set network.wan.password=""
