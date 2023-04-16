@@ -76,6 +76,8 @@ make defconfig
 
 if [[ $ui == true  ]] && [[ $profile == *wlan_ap* ]]; then 
 	make -j$(expr $(nproc) + 1) GL_PKGDIR=$base/glinet/ipq60xx/ V=s
+elif [[ $ui == true  ]] && [[ $profile == *ipq40xx* ]]; then
+        make -j$(expr $(nproc) + 1) GL_PKGDIR=$base/glinet/ipq40xx/ V=s
 elif [[ $ui == true  ]] && [[ $profile == *mt7981* ]]; then
 	if [[ $profile == *mt2500 ]]; then
 		cp $base/glinet/pkg_config/gl_pkg_config_mt7981_mt2500.mk $base/glinet/mt7981/gl_pkg_config.mk
