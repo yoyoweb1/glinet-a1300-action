@@ -11,7 +11,7 @@ on:
       device:
         description: '选择设备'     
         required: true
-        default: 'target_wlan_ap-gl-ax1800' 
+        default: 'target_ipq40xx_gl-a1300' 
         type: choice
         options:
         - target_wlan_ap-gl-ax1800
