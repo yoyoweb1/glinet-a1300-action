@@ -55,8 +55,8 @@ jobs:
         sudo apt autoremove --purge
         sudo rm -rf /usr/share/dotnet
         sudo rm -rf "$AGENT_TOOLSDIRECTORY"
-        git config --global user.email "shi05275@163.com"
-        git config --global user.name "JiaY-shi"
+        git config --global user.email "jnhxlym@163.com"
+        git config --global user.name "yoyoweb1"
     - name: make 
       run: |
         ./build.sh ~ ${{ inputs.device }} ${{ inputs.ui }} ${{ inputs.tag_main }} ${{ inputs.tag_no }}
