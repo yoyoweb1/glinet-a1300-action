@@ -46,7 +46,7 @@ packages:
   - luci-app-eqos
   #- wireguard-tools
   - luci-app-ddns-go
-  - luci-app-openclash
+  #- luci-app-openclash
   
 diffconfig: |
     
@@ -62,3 +62,5 @@ diffconfig: |
   CONFIG_PACKAGE_luci-theme-argon=y
   CONFIG_PACKAGE_luci-app-ttyd=y
   CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+  CONFIG_PACKAGE_luci-app-autoreboot=m
+  CONFIG_PACKAGE_luci-luci-app-openclash=m
