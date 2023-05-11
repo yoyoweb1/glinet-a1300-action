@@ -40,7 +40,7 @@ packages:
   #- wireguard
   - luci-app-eqos
   #- wireguard-tools
-
+  #- luci-app-ddns-go
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
