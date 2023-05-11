@@ -16,6 +16,10 @@ feeds:
   #  uri: https://github.com/kenzok8/small-package.git
   #  branch: main
   #  revision: f257489dd2380a73600e86ee4f30809e2108ad41
+  #- name: ddns-go
+  #  uri: https://github.com/sirpdboy/luci-app-ddns-go.git
+  #  branch: main
+  #  revision: 7505b9e104c50f96243fe3d43f6f443b156460ec
 packages:
   - luci-app-ssr-plus
   - luci-app-alist
