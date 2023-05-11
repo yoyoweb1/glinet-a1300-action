@@ -34,7 +34,7 @@ packages:
   #- luci-app-mwan3
   #- luci-app-wireguard
   #- wireguard
-  #- luci-app-eqos
+  - luci-app-eqos
   #- wireguard-tools
 
 diffconfig: |
