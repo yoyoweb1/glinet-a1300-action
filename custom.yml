@@ -59,3 +59,6 @@ diffconfig: |
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+  CONFIG_PACKAGE_luci-theme-argon=y
+  CONFIG_PACKAGE_luci-app-ttyd=y
+  CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
