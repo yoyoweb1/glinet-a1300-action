@@ -16,10 +16,15 @@ feeds:
   #  uri: https://github.com/kenzok8/small-package.git
   #  branch: main
   #  revision: f257489dd2380a73600e86ee4f30809e2108ad41
-  #- name: ddns-go
-  #  uri: https://github.com/sirpdboy/luci-app-ddns-go.git
-  #  branch: main
-  #  revision: 7505b9e104c50f96243fe3d43f6f443b156460ec
+  - name: ddns-go
+    uri: https://github.com/sirpdboy/luci-app-ddns-go.git
+    branch: main
+    revision: 7505b9e104c50f96243fe3d43f6f443b156460ec
+  - name: OpenClash
+    uri: https://github.com/vernesong/OpenClash.git
+    branch: main
+    revision: 0c87caa1b2847882280dcec09f582e4c1effece6
+  
 packages:
   - luci-app-ssr-plus
   - luci-app-alist
@@ -40,7 +45,9 @@ packages:
   #- wireguard
   - luci-app-eqos
   #- wireguard-tools
-  #- luci-app-ddns-go
+  - luci-app-ddns-go
+  - luci-app-openclash
+  
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
