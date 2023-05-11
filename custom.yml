@@ -4,9 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-  #- name: kenzok8_packages
-  #  uri: https://github.com/kenzok8/openwrt-packages.git
-  #  branch: master
+  - name: kenzok8_packages
+    uri: https://github.com/kenzok8/openwrt-packages.git
+    branch: master
   #  revision: 5f1ef0141e4785c60a79509c4bd3a0c0c2ab41d3
   #- name: immortalwrt_luci
   #  uri: https://github.com/immortalwrt/luci.git
@@ -18,17 +18,23 @@ feeds:
   #  revision: f257489dd2380a73600e86ee4f30809e2108ad41
 packages:
   - luci-app-ssr-plus
-  - luci-app-ddns
-  - ddns-scripts
-  - ddns-scripts-services
-  - ddns-scripts_aliyun
-  - luci-app-uhttpd
-  - dnsmasq-full
-  - luci-app-commands
+  - luci-app-alist
+  - luci-app-openclash
+  - luci-app-unblockneteasemusic
+  - luci-theme-argon
+  - luci-app-udpxy
+  - luci-app-vlmcsd
+  #- luci-app-ddns
+  #- ddns-scripts
+  #- ddns-scripts-services
+  #- ddns-scripts_aliyun
+  #- luci-app-uhttpd
+  #- dnsmasq-full
+  #- luci-app-commands
   #- luci-app-mwan3
   #- luci-app-wireguard
   #- wireguard
-  - luci-app-eqos
+  #- luci-app-eqos
   #- wireguard-tools
 
 diffconfig: |
