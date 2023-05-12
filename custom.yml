@@ -24,10 +24,15 @@ feeds:
     uri: https://github.com/vernesong/OpenClash.git
     branch: main
     revision: 0c87caa1b2847882280dcec09f582e4c1effece6
+  - name: alist
+    uri: https://github.com/sbwml/luci-app-alist.git
+    branch: main
+    revision: 1e6669495ab9a1eadc59fc570492c443d8d4337d
+  
   
 packages:
   - luci-app-ssr-plus
-  #- luci-app-alist
+  - luci-app-alist
   #- luci-app-openclash
   #- luci-app-unblockneteasemusic
   - luci-theme-argon
@@ -44,6 +49,7 @@ packages:
   #- luci-app-wireguard
   #- wireguard
   - luci-app-eqos
+  - luci-app-ttyd
   #- wireguard-tools
   #- luci-app-ddns-go
   
@@ -64,3 +70,4 @@ diffconfig: |
   CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
   CONFIG_PACKAGE_luci-app-autoreboot=m
   CONFIG_PACKAGE_luci-luci-app-openclash=m
+   CONFIG_PACKAGE_alist=y
