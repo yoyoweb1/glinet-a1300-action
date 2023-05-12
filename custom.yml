@@ -45,7 +45,7 @@ packages:
   #- wireguard
   - luci-app-eqos
   #- wireguard-tools
-  - luci-app-ddns-go
+  #- luci-app-ddns-go
   #- luci-app-openclash
   
 diffconfig: |
